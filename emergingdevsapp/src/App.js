@@ -12,7 +12,7 @@ import Footer from "./components/footer/footer";
 
 /** Reusable components */
 
-import WeekTemplate from "./css/components/reusable/weekTemplate";
+import WeekTemplate from "./components/reusable/weekTemplate";
 
 /** CSS imports */
 import "./App.css";
@@ -31,7 +31,7 @@ function App() {
       <Nav />
       <Routes>
         <Route path="/Home" element={<Home />} />
-        <Route path="WeekTemplate" element={<WeekTemplate {...Week1} />} />
+        <Route path="WeekTemplate" element={<WeekTemplate  />} />
       </Routes>
       <Footer />
     </div>
