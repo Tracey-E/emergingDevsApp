@@ -1,0 +1,16 @@
+nav{
+    display: flex;
+    position: fixed;
+    left: 0;
+    top:10em;
+}
+nav ul{
+    display: flex;
+    flex-direction: column;
+    list-style: none;
+
+}
+nav li{
+    font-size: medium;
+    padding: 1em;
+}

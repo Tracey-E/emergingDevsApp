@@ -1,0 +1,16 @@
+
+.weekOuter{
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: darkgreen;
+    color: black;
+}
+
+
+.weekTemp{
+    width: 100vw;
+    height: 100vh;
+    background-color: chartreuse;
+    color: black;
+}

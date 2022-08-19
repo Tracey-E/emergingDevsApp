@@ -1,0 +1,7 @@
+
+header{
+    display: flex;
+    align-self: flex-start;
+    width: 100%;
+    background-color: blueviolet;
+}

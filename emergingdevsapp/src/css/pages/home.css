@@ -1,5 +1,7 @@
-.home{
+.homeOuter{
     width:100vw;
     height:100vh;
     background-color: blueviolet;
+    align-items: center;
+    justify-content: center;
 }

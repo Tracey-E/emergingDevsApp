@@ -1,14 +1,25 @@
-import { Link } from "react-router-dom"
-
-
+import { Link } from "react-router-dom";
+import WeekTemplate from "../reusable/weekTemplate";
 export default function Nav() {
-
-    return (
-        <>
-        <h1>I am Nav</h1>
-        <Nav>
-            <Link to='/week1'>Week 1</Link>
-        </Nav>
-        </>
-    )
+  return (
+    <>
+      <nav>
+        <ul>
+          <li>
+            <Link to="/Home">Home</Link>
+          </li>
+          <li>
+            <Link to="/WeekTemplate">
+              <button
+                value="week1"
+                onClick={(e) => WeekTemplate(this.value, e)}
+              >
+                Week one{" "}
+              </button>
+            </Link>
+          </li>
+        </ul>
+      </nav>
+    </>
+  );
 }
