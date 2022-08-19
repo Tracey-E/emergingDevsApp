@@ -1,6 +1,6 @@
 
 
-[{https://xd.adobe.com/view/ed68c18f-eb0f-4b39-9289-6e5f6d7aa1ae-b83b/}]
+<img src='https://xd.adobe.com/view/ed68c18f-eb0f-4b39-9289-6e5f6d7aa1ae-b83b/' />
 
 
 
