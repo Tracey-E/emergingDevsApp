@@ -1,8 +1,8 @@
-<img src='./src/images/md-images/Web 1920 – landing.jpg' alt= 'wireframe' width='200px' height=' 200px'/>
-<img src='./src/images/md-images/Web 1920 – login.jpg' alt= 'wireframe' width='200px' height=' 200px'/>
-<img src='./src/images/md-images/Web 1920 – sidebar.jpg' alt= 'wireframe' width='200px' height=' 200px'/>
-<img src='./src/images/md-images/Web 1920 – signUp.jpg' alt= 'wireframe' width='200px' height=' 200px'/>
-<img src='./src/images/md-images/Web 1920 – week1demo.jpg' alt= 'wireframe' width='200px' height=' 200px'/>
+<img src='./src/images/md-images/Web 1920 – landing.jpg' alt= 'wireframe' width='200px'/>
+<img src='./src/images/md-images/Web 1920 – login.jpg' alt= 'wireframe' width='200px'/>
+<img src='./src/images/md-images/Web 1920 – sidebar.jpg' alt= 'wireframe' width='200px'/>
+<img src='./src/images/md-images/Web 1920 – signUp.jpg' alt= 'wireframe' width='200px'/>
+<img src='./src/images/md-images/Web 1920 – week1demo.jpg' alt= 'wireframe' width='200px'/>
 
 # Getting Started with Create React App
 
