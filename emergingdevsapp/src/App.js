@@ -3,7 +3,7 @@ import { Routes, Route } from "react-router-dom";
 
 /** Page imports */
 import Home from "./pages/home/home";
-import { Week1 } from "./pages/week1/week1";
+
 
 /**Component imports */
 import Header from "./components/header/header";
@@ -13,7 +13,7 @@ import Footer from "./components/footer/footer";
 /** Reusable components */
 
 import WeekTemplate from "./components/reusable/weekTemplate";
-import {Week} from "./components/reusable/weekTemplate"
+//import {Week} from "./components/reusable/weekTemplate"
 /** CSS imports */
 import "./App.css";
 import "./css/pages/home.css";
@@ -34,9 +34,8 @@ function App() {
       <Routes>
         <Route path="/" index element={<Home />} />
         <Route path="/Home" element={<Home />} />
-        <Route path="/WeekTemplate" element={<WeekTemplate />} >
-        <Route path=':week' element={<Week/>} /> 
-          </Route>
+        <Route path="/WeekTemplate" element={<WeekTemplate/>} />
+      
       </Routes>
 
       <Footer />

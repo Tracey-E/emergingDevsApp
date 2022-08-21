@@ -11,6 +11,13 @@
 .weekTemp{
     width: 100vw;
     height: 100vh;
-    background-color: chartreuse;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+   
     color: black;
+}
+
+.title{
+    width: 100%;
 }

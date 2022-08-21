@@ -1,6 +1,20 @@
 import { Link } from "react-router-dom";
 import WeekTemplate from "../reusable/weekTemplate";
+
+
 export default function Nav() {
+  sessionStorage.removeItem('week')
+function loadFunction(e){
+  let data = e.target.value
+  sessionStorage.setItem('week', data)
+ console.log(sessionStorage)
+
+  WeekTemplate(e)
+ 
+
+
+}
+
   return (
     <>
       <nav>
@@ -9,14 +23,26 @@ export default function Nav() {
             <Link to="/Home">Home</Link>
           </li>
           <li>
-            <Link to="/WeekTemplate">
+          <Link to="/WeekTemplate">
               <button
                 value="week1"
-                onClick={(e) => WeekTemplate(this.value, e)}
-              >
-                Week one{" "}
+                onClick={(e) => loadFunction( e)}
+              > Week one{" "} 
+               
               </button>
-            </Link>
+              </Link>
+            
+          </li>
+          <li>
+          <Link to="/WeekTemplate">
+              <button
+                value="week2"
+                onClick={(e) => loadFunction( e)}
+              > Week two{" "} 
+               
+              </button>
+              </Link>
+            
           </li>
         </ul>
       </nav>
